@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حساباتي الشخصية - Mohamed Bouzidi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+    }
+
+    h1 {
+      margin-bottom: 50px;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 90%;
+      max-width: 450px;
+    }
+
+    .social-button {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 18px 25px;
+      border-radius: 15px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .social-button i {
+      font-size: 30px;
+      width: 35px;
+      text-align: center;
+    }
+
+    .social-button:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    /* ألوان خاصة لكل منصة */
+    .kick { background: #ff4500; }
+    .x { background: #1da1f2; }
+    .snapchat { background: #fffc00; color: #000; }
+    .tiktok { background: linear-gradient(45deg,#69C9D0,#EE1D52,#69C9D0); color:#fff; }
+    .threads { background: #000; }
+    .instagram { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+    .facebook { background: #1877f2; }
+
+  </style>
+</head>
+<body>
+
+  <h1>حساباتي الشخصية - Mohamed Bouzidi</h1>
+
+  <div class="social-links">
+    <a class="social-button kick" href="https://kick.com/moha7001" target="_blank"><i class="fa-solid fa-gamepad"></i> Kick</a>
+    <a class="social-button x" href="https://x.com/mohamed15444154" target="_blank"><i class="fa-brands fa-x-twitter"></i> X / تويتر</a>
+    <a class="social-button snapchat" href="https://www.snapchat.com/add/bozidi3118?share_id=O75DjZ_2FhU&locale=ar-DZ" target="_blank"><i class="fa-brands fa-snapchat"></i> Snapchat 1</a>
+    <a class="social-button snapchat" href="https://www.snapchat.com/add/bozidi3118?share_id=KSAqz1rTbXk&locale=ar-DZ" target="_blank"><i class="fa-brands fa-snapchat"></i> Snapchat 2</a>
+    <a class="social-button tiktok" href="https://vm.tiktok.com/ZS9R7y5uyEbSu-g3MGI/" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+    <a class="social-button threads" href="https://www.threads.com/@bouzide847" target="_blank"><i class="fa-brands fa-twitter"></i> Threads</a>
+    <a class="social-button instagram" href="https://www.instagram.com/bouzide847?igsh=d3lhamRycHBiY2Iz" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a class="social-button facebook" href="https://www.facebook.com/mohamade.886" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+  </div>
+
+</body>
+</html>
